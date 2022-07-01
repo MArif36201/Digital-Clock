@@ -1,0 +1,21 @@
+body {
+    background: rgb(18, 124, 186);
+    background-image: url(img/3.jpg);
+    background-color: #cccccc;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #ed0707;
+    font-size: 80px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+}
